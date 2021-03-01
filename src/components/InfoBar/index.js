@@ -12,7 +12,8 @@ class InfoBar extends React.Component {
           </h1>
           <div class="ui divider" style={{ margin: 3 }} />
           <div class="meta" style={{ margin: 5 }}>
-            A software engineer with a desire to learn
+            Self-motivated programmer with experience in software design.
+            Looking to write meaningful code with real-world impact
           </div>
           <div class="row">
             <LinkIcon

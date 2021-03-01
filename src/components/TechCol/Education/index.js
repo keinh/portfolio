@@ -6,18 +6,18 @@ class Education extends React.Component {
       <div class="ui orange column container segment">
         <div>
           <p>
-            <b
+            <strong
               style={{
-                fontWeight: 10000,
                 maxWidth: 100,
+                fontWeight: "bold",
                 letterSpacing: -2,
                 fontSize: 20,
                 alignContent: "right",
                 color: "orange",
               }}
             >
-              UTSA
-            </b>
+              <strong /> UTSA
+            </strong>
             <span
               style={{
                 overflow: "visible",
@@ -31,7 +31,9 @@ class Education extends React.Component {
           </p>
         </div>
         <div>
-          University of Texas - San Antonio
+          <strong style={{ letterSpacing: -1 }}>
+            University of Texas - San Antonio
+          </strong>
           <small style={{ float: "right" }}>GPA 3.63/4.0</small>
         </div>
         <div class="ui orange label">
