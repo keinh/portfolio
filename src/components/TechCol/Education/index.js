@@ -36,8 +36,8 @@ class Education extends React.Component {
           </strong>
           <small style={{ float: "right" }}>GPA 3.63/4.0</small>
         </div>
-        <div class="ui orange label">
-          <div class="detail">Bachelor in Computer Science</div>
+        <div class="ui orange label" style={{ margin: 1 }}>
+          <div>Bachelor in Computer Science</div>
         </div>
       </div>
     );
